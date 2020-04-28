@@ -1,0 +1,369 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+th, td {
+  white-space: nowrap;
+}
+
+table {
+  overflow-x: scroll !important;
+}
+
+body {
+  background-color: #dedede;
+}
+
+/* General CSS Start */
+.modal-container { 
+  background-color: rgba(0,0,0,0.5);
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  z-index: 100;
+  left: 0;
+}
+
+.btn.btn-outline-danger:focus {
+  background-color: #dc3545;
+  color: white;
+}
+.li.page-item:focus {
+  background-color: #dc3545;
+}
+
+/* General CSS End */
+
+/* Customer Component */
+
+.card-margin {
+  margin: 20px;
+}
+
+div.card {
+  background-color: #f4f5f0 !important;
+}
+.form-group.required .font-weight-bold:after {
+  content:"*";
+  color:red;
+}
+
+.text-muted:before {
+content: "*";
+color: red;
+}
+
+.btn {
+  margin-bottom: 7px;
+}
+
+/* Landing/Home Component */
+
+.carousel-descriptor {
+  background-color: rgba(255,255,255,0.75);
+  border-radius: 10px 10px;
+  padding: 15px;
+  padding-bottom: 40px;
+  color: black;
+}
+
+.custom-carousel {
+  width: 100%;
+}
+
+.carousel-inner > .item {
+  -webkit-backface-visibility: visible;
+          backface-visibility: visible;
+}
+
+.carousel-image {
+  min-width: 900px;
+}
+
+.footer-restaurant {
+  margin-top: 15px;
+  font-weight: lighter;
+}
+
+.footer-address {
+  color: rgb(182, 0, 0);
+  font-size: 12px;
+}
+
+.footer-authors {
+  font-weight: lighter;
+  font-size: 12px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* Start Customer Component */
+#registrationScreenBackground {
+  background-image: url("Images/ScreenBackgrounds/Login1.png");
+  background-size: cover;
+  background-position: center right;
+}
+/* End Customer Component */
+
+/* Start Menu Component CSS */
+.card-container {
+  margin: 10px;
+}
+
+.card.beverage {
+  width: 100%;
+}
+
+.card-margin {
+  margin: 15px;
+}
+
+.custom-card-image {
+  width: 350px;
+  height: 300px;
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+.card-img-top.custom {
+  height: 100%;
+  border: solid #d9d9d9 2px;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.card-right-section {
+  padding-top: 15px;
+  margin-left: 20px;
+}
+
+.form-control.quantity-custom {
+  width: 80px;
+  margin-bottom: 8px;
+}
+
+.text-center.menu-header {
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+
+.text-center.menu-header-beverage {
+  margin-top: 25px;
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+
+.col-lg-4-custom {
+	flex: 0 0 30.333333% !important;
+	max-width: 30.333333% !important;
+	margin: 6px;
+}
+
+.custom-card-deck-wrapper {
+  display: contents;
+  background-color: #f4f5f0 !important;
+}
+
+.btn.btn-outline-danger.custom {
+  margin-top: 6px;
+}
+
+/* End Menu Component CSS */
+
+/* Start Login Component CSS */
+#loginScreenBackground {
+  background-image: url("Images/ScreenBackgrounds/Login2.png");
+  background-size: cover;
+  background-position: center right;
+}
+
+.card.login-custom {
+  background-color: rgba(255, 255, 255, 0.9) !important;
+}
+
+/* End Login Component CSS */
+
+/* Start User Profile Component CSS */
+#userProfileScreenBackground {
+  background-image: url("Images/ScreenBackgrounds/Login4.jpeg");
+  background-size: cover;
+  background-position: center right;
+}
+
+.card.login-custom {
+  background-color: rgba(255, 255, 255, 0.9) !important;
+}
+
+/* End Login Component CSS */
+
+/* Start Portal Component CSS */
+.options-container {
+  display: grid;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+#portalBackground {
+  /*background-image: url("Images/ScreenBackgrounds/Portal.png");*/
+  background-color: #ecebeb;
+}
+
+.card.user-portal {
+  border: solid rgb(141, 141, 141) 1.5px;
+  margin-bottom: 25px;
+}
+
+.custom-container {
+  padding: 10px;
+  padding-top: 10px;
+  background-color: #e6e6e6;
+  padding-top: 20px;
+  border-radius: 10px 10px;
+  border: solid #d9d5d5 2.5px;
+}
+/* End Portal Component CSS */
+
+/* Start CarryOut Component CSS */
+h1.font-weight-lighter.custom, 
+h2.font-weight-lighter.custom {
+  color: #FF3836;
+  text-transform: uppercase;
+  font-weight: 100 !important;
+  /*background-color: #efefef;*/
+  padding: 10px;
+}
+
+.table-container {
+  overflow-x: scroll;
+}
+
+input.form-control.quantity {
+  display: inline;
+}
+
+.form-control.quantity {
+  width: 60px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.btn.btn-outline-danger.quantity {
+  width: 50px;
+}
+
+.form-control:disabled, .form-control[readonly] {
+  background-color: white !important;
+  opacity: 1;
+}
+
+/* Plus Sign */
+.svg-inline--fa.fa-plus.fa-w-14 {
+  color: #dc3545;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.svg-inline--fa.fa-plus.fa-w-14:hover {
+  color: rgb(182, 0, 0);
+}
+
+/* Minus Sign */
+.svg-inline--fa.fa-minus.fa-w-14 {
+  color: #dc3545;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.svg-inline--fa.fa-minus.fa-w-14:hover {
+  color: rgb(182, 0, 0);
+}
+
+/* End CarryOut Component CSS */
+
+/* Start Contact Component CSS */
+#contactBackground {
+  background-image: url("Images/ScreenBackgrounds/Portal.png");
+  background-size: cover;
+  background-position: center center;
+}
+
+.card.contact {
+  margin: 30px;
+  padding-top: 30px;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.75) !important;
+}
+/* End Contact Component CSS */
+
+/* Start Reservation Detail Component CSS */
+
+#mobile-reservation { 
+  display: none;
+}
+
+/* End Reservation Detail Component CSS */
+
+/* Devices under 1000px */
+@media (max-width: 1000px) { 
+  .menu-item-break {
+    display: none;
+  }
+}
+
+/* Devices under 800px*/
+@media (max-width: 800px) {
+  .menu-item-break {
+    display: none;
+  }
+
+  #non-mobile-reservation {
+    display: none;
+  }
+
+  #mobile-reservation {
+    display: block;
+  }
+
+  .col-lg-4-custom {
+    flex: 0 0 98.0% !important;
+    max-width: 98.0% !important;
+  }
+}
